@@ -1,4 +1,5 @@
 //import API's needed here:
+
 import java.util.Scanner;
 
 public class ToothpasteAlert
