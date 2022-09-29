@@ -23,7 +23,7 @@ public static void main(String args[ ])
                Scanner bro= new Scanner(System.in);
 
               //declare data storage space (constants and variables)   
-              int sec=bro.nextInt();
+              int sec;
               int hrs;
               int min;
               
@@ -34,9 +34,13 @@ public static void main(String args[ ])
               
 
               //process data as required by program specifications
+              
+              hrs=sec/(60*60);
+              min=(sec%(60*60)/60);
+              sec=(sec%(60*60*hrs))%60;
 
               //display results as required by program specifications
-				  
+				  System.out.print( hrs+ ":"+min+":"+sec);
 				  
          } //closing main method
 } //closing class header
