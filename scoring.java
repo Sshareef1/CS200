@@ -31,8 +31,14 @@ public static void main(String args[ ])
                  
 
               //get  input as required by program specifications
-              System.out.print("enternumbr of students: ");
-              name= s.nextLine();
+              System.out.print("enter ur nofs: ");
+              nofS = s.nextLine();
+              
+               System.out.print("enter ur best: ");
+               best = s.nextLine(); 
+               
+                System.out.print("enter ur hs: ");
+                hs = s.nextLine();
 
               //process data as required by program specifications
 
