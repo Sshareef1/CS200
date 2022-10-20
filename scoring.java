@@ -24,8 +24,8 @@ arguments/parameters: ( ) data to be sent to the method -
               //declare data storage space (constants and variables)
       int nofS;
       String name;
-      double score;
-      double hs = 0;
+      double score;  
+      double hs = 0;  //intialily used int, I decided to use double for decimals.
       String best = "";
               
                  
@@ -37,7 +37,7 @@ arguments/parameters: ( ) data to be sent to the method -
  // // System.out.print("enter ur best: ");
 // //       best = s.nextLine(); 
 // //                
-// //       System.out.print("enter ur hs: ");
+// //       System.out.print("enter ur hs: ");  //Didnt need this because we are finding best & hs
 // //       hs = s.nextDouble();
                 
       while( nofS>0) {
