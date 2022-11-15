@@ -32,7 +32,7 @@ public class Maze {
                      if(randomNumber % 2 == 0 && myMaze[i][j][k] != 1){
                         myMaze[i][j][k] = 2;
                         amountOfCats++;
-                      }else if (!hasChesse && randomNumber % 2 == 0 ){
+                      }else if (!hasChesse && randomNumber % 1 == 0 ){
                         myMaze[i][j][k] = 1;
                         hasChesse  = true;  
                      }
